@@ -59,14 +59,15 @@ The game uses a 3×3 character array to represent the board.
 Each cell initially contains a blank space. When a player makes a valid move, the corresponding cell is updated with `X` or `O`.
 
 ## Main Functions
-`resetBoard()` – Clears the board and sets Player X as the starting player.
-`hasWon()` – Checks all rows, columns, and diagonals for a winning combination.
-`isDraw()` – Checks whether all cells are occupied without a winner.
-`printBoard()` – Displays the game board in the console.
-`playConsoleGame()` – Controls the console version of the game.
-`updateGuiBoard()` – Updates the GUI buttons according to the current board state.
-`startGuiGame()` – Initializes or resets the GUI game.
-`runGui()` – Creates and runs the Windows GUI application.
+
+- `resetBoard()` – Clears the board and sets Player X as the starting player.
+- `hasWon()` – Checks all rows, columns, and diagonals for a winning combination.
+- `isDraw()` – Checks whether all cells are occupied without a winner.
+- `printBoard()` – Displays the game board in the console.
+- `playConsoleGame()` – Controls the console version of the game.
+- `updateGuiBoard()` – Updates the GUI buttons according to the current board state.
+- `startGuiGame()` – Initializes or resets the GUI game.
+- `runGui()` – Creates and runs the Windows GUI application.
 
 ## How to Play
 1. Run the program.
@@ -113,6 +114,6 @@ Run the executable:
 
 ## Internship Details
 
-Organization: CodSoft
-Internship Domain: C++ Programming
-Task: Task 2 – Tic-Tac-Toe Game
+- **Organization:** CodSoft
+- **Internship Domain:** C++ Programming
+- **Task:** Task 2 – Tic-Tac-Toe Game
